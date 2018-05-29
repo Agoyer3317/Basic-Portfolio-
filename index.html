@@ -1,46 +1,107 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-<meta charset="UTF-8">
-<title>Allison's Portfolio</title>
-<link rel="stylesheet" type="text/css" href="assets/css/portfolio_home.css">
+
+  <meta charset="UTF-8">
+  <title>Allison</title>
+
+   <!-- We need to bring in the bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+   <!-- Allison's CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/portfolio_home.css">
 </head>
 
 <body>
-    <!-- Width 960 -->
-    <div id="wrapper">
-    
-    <!-- Navigation -->
-        <nav>
-                <div>
-                    <h1 class="name">Allison Scollan</h1>
-                </div>
- 
-                <div class="topnav">
-                    <a href="Portfolio_contact.html">Contact</a>
-                    <a href="Portfolio_portfolio.html">Portfolio</a>
-                    <a href="index.html">About</a>
-                </div>
-                
-            </nav>
-
-                
-            <!-- GrayBG -->
-            <div class="gray">
-                       
-                 <!-- White BG -->
-                <div class="white">
-                    <div class="pic">
-                        <h2 class="about">About Me</h2>
-                        <p class="body">Lorem ipsum dolor sit amet, vel vivamus et, erat ipsum vel ut. Sem et curabitur taciti neque, ut turpis cum vestibulum non, est arcu ut faucibus cursus, diam suspendisse sapien ipsum magna, eu est fusce. Sit lacus, ultrices vitae ligula consectetuer, odio luctus mauris elit. Sollicitudin purus id id duis laoreet massa, vitae ut faucibus quis ante ut gravida. Porttitor tincidunt, lacus adipiscing id modi aenean diam dui, morbi diam, vel eget turpis sed. Pharetra ultricies suscipit ligula, nam aenean quisque ligula, malesuada pede, ut vehicula et morbi odio sed maecenas, nec per mollis erat odio.</p>
-                    </div>
-                </div>
-            </div>
+    <div class="container wrapper">
         
-            <footer class="footer"></footer>
+        <!-- Navigation BS -->
+        <div class="row">
+            <h1 class="name col-sm-4 col-md-4 col-lg-4">Allison Scollan</h1>
+           
+            <!-- navigation list -->
+                <ul class="nav topnav justify-content-end col-sm-8 col-med-8 col-lg-8">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Ch1">About</a>
+                    </li>
 
-    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Ch2">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Ch3">Content</a>
+                    </li>
+                </ul>
+        <!--closing row -->
+        </div>    
+
+
+        <!--About me section -->
+        <div class="row gray">
+            
+            <!--picture placeholder -->
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <img src="Assets/images/Picture200x250.jpg" class="img-fluid float-left pic" alt="Responsive image">
+         
+
+            <!--about me copy -->
+            <div class="float-left"></div>
+                <h2 class="about" id="Ch1">About Me</h2>
+                <p class="about">Lorem ipsum dolor sit amet, vel vivamus et, erat ipsum vel ut. Sem et curabitur taciti neque, ut turpis cum vestibulum non, est arcu ut faucibus cursus, diam suspendisse sapien ipsum magna, eu est fusce. Sit lacus, ultrices vitae ligula consectetuer, odio luctus mauris elit. Sollicitudin purus id id duis laoreet massa, vitae ut faucibus quis ante ut gravida. Porttitor tincidunt, lacus adipiscing id modi aenean diam dui, morbi diam, vel eget turpis sed. Pharetra ultricies suscipit ligula, nam aenean quisque ligula, malesuada pede, ut vehicula et morbi odio sed maecenas, nec per.</p>
+            </div>        
+        <!--closing about me section -->
+        </div>
+
+
+         <!--portfolio section -->
+         <div class="row portfolio">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h2 class="portfolio-two" id="Ch2">Portfolio</h2>
+                    <img src="Assets/images/Project1.jpg" class="img-fluid float-left pic" alt="Responsive image">
+                    <img src="Assets/images/Project1.jpg" class="img-fluid float-left pic" alt="Responsive image">
+                    <img src="Assets/images/Project1.jpg" class="img-fluid float-left pic" alt="Responsive image">
+                    <img src="Assets/images/Project1.jpg" class="img-fluid float-left pic" alt="Responsive image">
+                </div>             
+
+
+        <!--closing portfolio -->
+        </div>
+
+        
+        <!--contact section -->
+        <div class="row gray">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h2 id="Ch3">Contact</h2>
+                <form class="form">
+                    <p>Name:</p><br>
+                    <input type="text" name="name"><br><br>
+                    <p>Email:</p><br>
+                    <input type="text" name="email"><br><br>
+                    <p>Message:</p><br>
+                    <input type="text" name="message">
+                </form>
+                <!--button -->
+                <button type="button" class="btn btn-secondary btn-sm gray-button">Submit</button>
+            </div>    
+        <!--closing contact -->
+        </div>
+        
+        
+        <!--footer -->
+        <div class="row">
+            <div class="purple col-sm-12 col-md-12 col-lg-12">
+                placeholder
+            </div>
+        </div>
+
+
+    <!-- closing container-->
+    </div>            
+
 
 
 </body>
+
 </html>

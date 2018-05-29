@@ -47,92 +47,105 @@ table {
 	border-spacing: 0;
 }
 
-
-#wrapper {width: 960px;
-        align: center;
-        height: 100px;
- }
-
- p, h1, h2, ul, a {font-family: Arial, Helvetica, sans-serif} 
- 
- h2     {
-        font-size: 30px;
-        line-height: 40px;
-        color: darkcyan;
-        font-weight: bold;
+. {
+    overflow: visible;
 }
+p, h1, h2, ul, a {font-family: Arial, Helvetica, sans-serif} 
  
- p      {size: 16px;
-        line-height: 23px; 
-        color: gray;}  
-
-.name   {font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        background-color: darkcyan;
-        padding: 20px;
-        width: 225px;
-        text-align: center;
-        margin-left: 10%;
-        color: #FFFFFF;
-        float: left;
+h2     {
+       font-size: 35px;
+       line-height: 40px;
+       color: darkcyan;
+       font-weight: bold;
+       margin-top: 5%;
+       margin-left: 5%;
 }
 
- 
+p {
+    font-size:20px;
+    color: gray;
+    line-height: 30px;
+    margin-left: 5%;
+}  
+
+.name {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: darkcyan;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
 
 .topnav a {
-        float: right;
-        color: darkcyan;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        margin-right:85px;
-        margin-top: 15px;
-      }
-
-      a:hover {
-        color: red;
-    }   
-    
-.gray   {background-color: #CCCCCC;
-        clear:both;
-        height: 400px;
+    color: darkcyan;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
-.white  {background-color: white;
-        height: 250px;
-        width:  728px;
-        float: left;
-        margin-left: 10%;
-        margin-top: 60px;
-        margin-bottom; 20px;
-        padding: 20px;
+a:hover {
+    color: red;
+}  
+
+.gray {
+    background-color: #CCCCCC;
+    height: auto;
 }
 
-.pic    {background-color: lightgreen;
-        width: 150px;
-        height:248px;
-        float: left;
-        
+.pic {
+    max-width: 100%;
+    height: auto;
+    margin: 5%;
 }
 
-.about  {float: left;
-        margin-left: 175px;
-        width: 200px;
+.about {
+    margin: 5%;
+}
+
+.portfolio {
+    background-color: darkcyan;
+    height: auto;
+    background-blend-mode: 50%;
+}
+.portfolio-two{
+    color: white;
+    margin-left: 5%;
 
 }
 
-.body   {float:left;
-        margin-left: 175px;
-        width: 525px;
-
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color: gray;
+    line-height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
 }
 
-.footer {height: 100px;
-        background-color: gray;
-        clear: both;
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+}
 
+.gray-button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
 
-
+.purple {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    height: auto;
+    text-align: center; 
+    font-size: 20px;
+    line-height: 80px;
+    color: white;
 }
